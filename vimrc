@@ -13,8 +13,8 @@ Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'
 "Bundle 'taglist.vim'
 "
-"Bundle 'Raimondi/delimitMate'
-"Bundle 'ervandew/supertab'
+Bundle 'Raimondi/delimitMate'
+Bundle 'ervandew/supertab'
 "
 Bundle 'ctrlp.vim'
 Bundle 'scrooloose/nerdtree'
@@ -25,7 +25,7 @@ Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
 Bundle 'honza/vim-snippets'
-"Bundle 'Lokaltog/vim-powerline'
+Bundle 'Lokaltog/vim-powerline'
 Bundle 'AutoHighLight'
 Bundle 'w0ng/vim-hybrid'
 " end of vundle setting
