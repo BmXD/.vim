@@ -1,0 +1,30 @@
+[user]
+	name =
+	email =
+[core]
+	filemode = true
+	editor = vim
+[alias]
+	st = status
+	cm = commit
+	co = checkout
+	br = branch
+	pick = cherry-pick
+	fp = format-patch
+	la = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	ll = log --graph --decorate --pretty=oneline --abbrev-commit
+	lf = log --stat --decorate --format=fuller abbrev-commit
+	df = "!f() { vim -p $(git diff --name-only) +\"tabdo Gdiff $@\" +tabfirst; }; f"
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+	log = auto
+[push]
+	default = simple
+
+[difftool]
+	tool = vimdiff
+	prompt = false
+
