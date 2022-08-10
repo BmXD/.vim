@@ -65,7 +65,7 @@ set noautoindent
 set bg=dark
 
 autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
-
+let g:snipMate = { "snippet_version" : 1 }
 "let g:sh_fold_enabled = 7
 "let g:perl_fold = 1
 "let perl_nofold_packages = 1
